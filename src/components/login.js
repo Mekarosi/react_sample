@@ -29,7 +29,7 @@ export default class login extends Component {
                     </Form.Group>
 
 
-                   <Button variant="primary" type="submit">
+                   <Button variant="primary" type="submit" block>
                         Submit
                     </Button>
                 </Form>

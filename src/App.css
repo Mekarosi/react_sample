@@ -35,6 +35,7 @@ h1{
   font-size: 35px;
   color: rgb(77, 38, 38);
   text-align: center;
+  text-transform: uppercase;
 }
 
 @keyframes App-logo-spin {
