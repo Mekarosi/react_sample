@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
+import Form from 'react-bootstrap/Form';
+import Button from 'react-bootstrap/Button';
 
 export default class signup extends Component {
     constructor(props){
         super(props)
-        this.state() ={
+        this.state = {
             firstName: "",
-            LastNme: "",
+            lastName: "",
             email: "",
             password:""
 
