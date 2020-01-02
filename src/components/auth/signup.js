@@ -7,9 +7,9 @@ export default class signup extends Component {
         super(props)
         this.state = {
             firstName: "",
-            lastName: "",
+            lastName: "",    
             email: "",
-            password:""
+            password: "" 
 
         }
     }
@@ -17,7 +17,7 @@ export default class signup extends Component {
 
     render() {
         return (
-            <div>
+            <div class='App-header'>
                 <div id='container'>
         <h1>SIGN-UP</h1>
         <Form>
